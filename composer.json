@@ -1,0 +1,23 @@
+{
+    "name": "phpmp4/phpmp4",
+    "type": "library",
+    "description": "PHPMp4 is a simple lightweight library for converting videos into HTML5 Mp4 video format",
+    "keywords": ["video processing", "video", "audio processing", "audio", "avconv", "ffmpeg", "avprobe", "ffprobe"],
+    "license": "MIT",
+    "authors": [
+    {
+        "name": "Anand S",
+        "email": "anandrmedia@gmail.com",
+        "homepage": "http://meanands.blogspot.com"
+    }
+    ],
+    "require": {
+        "php"                          : ">=5.3.3"
+    },
+   
+    "autoload": {
+        "psr-0": {
+            "PHPMp4": "src"
+        }
+    }
+}
